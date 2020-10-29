@@ -152,7 +152,7 @@ Here, the numbers are color coded comparing all the possible cluster groups. The
 
 - If bigger data sample sizes were available for all these counties with Maryland state, 
 	
-	we think it would be helpful to even incorporate how these counties are grouped based on other health metrics, such as mortality rates for obesity and 		heart diseases or heart disease mortality rate.
+	we think it would be helpful to even incorporate how these counties are grouped based on other health metrics, such as mortality rates for obesity and 		heart diseases or heart disease prevalence rate.
 	
 	we think it would be helpful to even incorporate how these counties are grouped based on other socioeconomic metrics, such as availability to vehicles or 	  accessibility to food or healthcare.
 	
