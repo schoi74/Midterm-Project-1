@@ -1,4 +1,4 @@
-# Midterm-Project-1
+# How counties are grouped based on health, socioeconomic, and COVID-19 metrics
 
 ## Background
 
