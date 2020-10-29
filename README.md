@@ -71,6 +71,14 @@ Here, the counties are distributed heavily in anchor 1 and evenly distributed in
 - Anchor 3: 4 counties (Carroll)
 
 ![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/covid_list_counties.png)
+
+### How are these three different clusters related to each other?
+
+![alt_text]()
+
+Here, the numbers are color coded comparing all the possible cluster groups. The code 111 means anchor 1 for health, socioeconomic, and covid clusters.
+
+
  
 ## Summary
 
