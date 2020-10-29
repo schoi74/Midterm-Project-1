@@ -42,7 +42,35 @@ Here, the counties are distributed more heavily in anchor 1 and even spread out 
 
 ### How are counties grouped based on different COVID-19 variables?
 
+![alt_text]()
 
+__Anchor 1__ is a cluster of _less than average_ confirmed cases, _less than average_ deaths, _less than average_ active cases, _less than average_ incidence rate, and _less than average_ case-fatality ratio.
+
+__Anchor 2__ is a cluster of _about one and a half standard deviations greater_ confirmed cases, _slightly less than two standard deviations greater_ deaths, _about one and a half standard deviations greater_  active cases, _slightly less than one standard deviation greater_ incidence rate, and _slightly greater_ case-fatality ratio.
+
+__Anchor 3__ is a cluster of _less than average_ confirmed cases, _slightly less than average_ deaths, _less than average_ active cases, _slightly less than one standard deviation greater_ incidence rate, and _two standard deviations greater_ case-fatality ratio.
+
+In general, the overall COVID-19 ranking is:
+
+    1. Anchor 1
+    2. Anchor 3
+    3. Anchor 2
+    
+![alt_text]()
+
+Here, we see that the sum of the minimum distance squared is about 34.44. For 24 counties, the average comes out to be about 1.435 units of mininum distance squared per county. This is a stronger correlation than that of the health cluster analysis.
+
+![alt_text]()
+
+Here, the counties are distributed heavily in anchor 1 and evenly distributed in anchors 2 and 3.
+
+- Anchor 1: 16 counties (Washington)
+
+- Anchor 2: 4 counties (Baltimore County)
+
+- Anchor 3: 4 counties (Carroll)
+
+![alt_text]()
  
 ## Summary
 
