@@ -135,4 +135,10 @@ Here, the numbers are color coded comparing all the possible cluster groups. The
         i. Garrett County
     
 ## Summary
-
+- The three most common or prevalent clusters are Clusters 111, 231, and 311.
+	
+	1. Cluster 111: average mortality rate, high diabetes, affluent area, low COVID presence
+	2. Cluster 231: high overall mortality and morbidity prevalence, high poverty/unemployment, low COVID prevalence
+	3. Cluster 311: healthy area, affluent area, low COVID presence
+	
+- 
