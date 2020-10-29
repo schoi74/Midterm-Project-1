@@ -28,7 +28,7 @@ In general, the overall health ranking is:
 
 Here, we see that the sum of the mininum distance squared is 48.138. For 24 counties, the average comes out to be about 2 units of mininum distance squared per county. This is not the strongest correlation of each county in their corresponding anchor groups, but it is a fair number to assume that these counties are grouped fairly.
 
-![alt_text]()
+![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/health_cluster_count.png)
 
 Here, the counties are distributed more heavily in anchor 1 and even spread out between anchors 2 and 3.
 
