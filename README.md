@@ -40,9 +40,7 @@ In general, the overall health ranking is:
 
 Here, we see that the sum of the mininum distance squared is 48.138. For 24 counties, the average comes out to be about 2 units of mininum distance squared per county. This is not the strongest correlation of each county in their corresponding anchor groups, but it is a fair number to assume that these counties are grouped fairly.
 
-![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/health_cluster_count.png)
-
-Here, the counties are distributed more heavily in anchor 1 and even spread out between anchors 2 and 3.
+The counties are distributed more heavily in anchor 1 and even spread out between anchors 2 and 3.
 
 - Anchor 1: 12 counties (Baltimore County)
 
@@ -51,6 +49,20 @@ Here, the counties are distributed more heavily in anchor 1 and even spread out 
 - Anchor 3: 6 counties (Talbot)
 
 ![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/health_list_counties.png)
+
+### How are counties grouped in Maryland based on different socioeconomic characteristics?
+
+![alt_text](https://github.com/schoi74/how-counties-are-grouped-based-on-health-socioeconomic-and-COVID-19-metrics/blob/main/socioeconomic_clusters.jpg)
+
+__Anchor 1__ is a cluster with an average population size, an above average income level, and a below average rate of poverty and unemploymenat.
+
+__Anchor 2__ is a cluster with an above average population size, average income level, and a slightly below average rate of poverty and unemployment.
+
+__Anchor 3__ is a cluster with a below average population size, below average income level, and an above average rate of poverty and unemployment.
+
+Below, we can see that Cluster 1 and 3 have a higher concentration of counties in their respective clusters, and Cluster 2 does not feature as many counties. 
+
+![alt_text](https://github.com/schoi74/how-counties-are-grouped-based-on-health-socioeconomic-and-COVID-19-metrics/blob/main/socioeconomic_cluster%20list%20of%20counties.jpg) 
 
 ### How are counties grouped based on different COVID-19 variables?
 
@@ -72,9 +84,7 @@ In general, the overall COVID-19 ranking is:
 
 Here, we see that the sum of the minimum distance squared is about 34.44. For 24 counties, the average comes out to be about 1.435 units of mininum distance squared per county. This is a stronger correlation than that of the health cluster analysis.
 
-![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/covid_cluster_count.png)
-
-Here, the counties are distributed heavily in anchor 1 and evenly distributed in anchors 2 and 3.
+The counties are distributed heavily in anchor 1 and evenly distributed in anchors 2 and 3.
 
 - Anchor 1: 16 counties (Washington)
 
@@ -146,14 +156,12 @@ Here, the numbers are color coded comparing all the possible cluster groups. The
 	3. Cluster 311: healthy area, affluent area, low COVID presence
 		Calvert  County, Howard County, Queen Anne's County, Talbot County
 
-- For health, even though there are 12 counties for the middle ranked cluster and 6 for each cluster with the highest and lowest overall mortality rate, there should be a distribution more heavily in the anchor 3 with _less than average_ confirmed cases, _slightly less than average_ deaths, _less than average_ active cases, _slightly less than one standard deviation greater_ incidence rate, and _two standard deviations greater_ case-fatality ratio.
+For health, even though there are 12 counties for the middle ranked cluster and 6 for each cluster with the highest and lowest overall mortality rate, there should be a distribution more heavily in the anchor 3 with _less than average_ confirmed cases, _slightly less than average_ deaths, _less than average_ active cases, _slightly less than one standard deviation greater_ incidence rate, and _two standard deviations greater_ case-fatality ratio.
 
-- Overall, Maryland has done a decent job so far dealing with the coronavirus as only 4 out of the 24 counties have higher than average COVID prevalence and that 16 counties are in the lowest COVID numbered anchor (anchor 1).
+Overall, Maryland has done a decent job so far dealing with the coronavirus as only 4 out of the 24 counties have higher than average COVID prevalence and that 16 counties are in the lowest COVID numbered anchor (anchor 1).
 
-- If bigger data sample sizes were available for all these counties with Maryland state, 
+If bigger data sample sizes were available for all these counties with Maryland state, it would be helpful to  incorporate how these counties are grouped based on other health metrics, such as the obesity and heart disease mortality rates, the heart disease prevalence rate, etc. It would also be useful to look at other socioeconomic metrics and the clustering therein, such as vehicle availablity or accessibility to food or healthcare. The current data is limited to mortality/morbidity and to mostly income-related metrics; the demographics of a county, such as racial composition, may also provide interesting insights into the existing clusters and may also change how counties are clustered. There will 
+
+Additionally, COVID-19 rates are not affected only by population sizes, income levels, poverty/unemployment rates, morbidity rates, or mortality; there may be other factors to consider, such as accessbility to healthcare, education regarding hygiene, etc. 
 	
-	we think it would be helpful to even incorporate how these counties are grouped based on other health metrics, such as mortality rates for obesity and 		heart diseases or heart disease prevalence rate.
-	
-	we think it would be helpful to even incorporate how these counties are grouped based on other socioeconomic metrics, such as availability to vehicles or 	  accessibility to food or healthcare.
-	
-- If we were to manage the state plans to improve certain parts of the state to improve people's lives, we would either incorporate more variables to further reason why and how the counties are grouped into these clusters or delve more into the causes of overall mortality rate or the confirmed cases of COVID, for example, are higher in some regions or clusters than others and some possible resolutions to alleviate the discrepancy. Moreover, we could even look closer into each county that need improvement in health, socioeconomy, or even COVID-19 to analyze the root causes and resolve.
+Moving forward, our data holds implications for government planning, especially to identify the counties that may require more assistance with alleviating income inequality, reducing poverty/unemployment rates, improving overall health, reducing morbidity/mortality rates, etc. This can take the form of increased funding and aid for counties that are part of a lower-income cluster, for example, or new laws being proposed/passed to reduce morbidity rates across the state. While this data does tie in COVID-19 updates specifically, it is important to remember that public health affects everyone and touches every facet of life every day. Better health and fewer socioeconomic disparities may lead to improved quality of life, increased productivity across the board, and more. 
