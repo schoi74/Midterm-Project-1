@@ -2,9 +2,19 @@
 
 ## Background
 
+Public health, now more than ever, is an issue that requires further action. In the midst of the current coronavirus pandemic, how do existing (and perhaps underlying) health factors and socioeconomic conditions affect (if at all) COVID-19 infection and death rates? Can we identify any common relationships (or at least correlations) between these three groups of data? 	If any relationships can be identified, this has implications for ways to not only tackle the COVID-19 pandemic but also to potentially reduce the negative implications for pandemics that may arise in the future. While it is extremely important to tackle the current COVID-19 crisis and flatten the curve, we must also address issues that may exacerbate the consequences of a pandemic or any general financial or public health crisis: issues like income inequality, poverty rates, and morbidity/mortality rates. Analysis of public health data can inform future public health research, politics and laws and government initiatives to improve existing disparities, efforts to improve communities, and more. 
+
 ## Business Question
 
+How are counties in the state of Maryland grouped based on different health and socioeconomic metrics? Furthermore, how does COVID-19 data relate to existing health/socioeconomic data? 
+
 ## Data Analysis
+
+We used data from the [Maryland Open Data Portal](https://opendata.maryland.gov/), the Johns Hopkins Center for a Livable Future’s [Maryland Food System Map](https://mdfoodsystemmap.org/), and the Johns Hopkins University’s Center for Systems Science and Engineering (CSSE) [daily reports of COVID-19 data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). For the Maryland Open Data Portal, we used data about [socioeconomic characteristics](https://opendata.maryland.gov/Demographic/Maryland-Counties-Socioeconomic-Characteristics/is7h-kp6x) and [demographics](https://opendata.maryland.gov/Demographic/Choose-Maryland-Compare-Counties-Demographics/pa7d-u6hs) across counties in Maryland. For the Maryland Food System Map, we used 2018 data regarding the [obesity prevalence rate](https://data-clf.hub.arcgis.com/datasets/35ba641edca9421da541242e66ec288e_476), the [diabetes prevalence rate](https://data-clf.hub.arcgis.com/datasets/a1faf09747be4911b20838c639341480_475), the [diabetes mortality rate](https://data-clf.hub.arcgis.com/datasets/dd16ad94a1b344b090868e0181c99674_479), and the [overall mortality rate](https://data-clf.hub.arcgis.com/datasets/75684f521c374e408d2dc082a41cafc0_477).
+	
+We first grouped the data into three categories: health data, socioeconomic/demographic data, and COVID-19 data. We then conducted a cluster analysis for each group to see what clusters (by county in MD) existed; that was then used to create one cluster map (color-coded by anchor) per data group. We then looked at correlation rates between all variables across the three data groups. Finally, we looked at which counties were clustered into which anchors and interpreted what that meant for each county across the three data groups. 
+	
+We decided to focus mainly on the percents and rates where possible, as absolute values of numbers are difficult to compare across groups (ex: the effect that a mortality rate of 1000 people affects a county with a total population of 10,000 vs a county with a total population of 100,000 differently). 
 
 ## Data Answer
 
