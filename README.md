@@ -140,8 +140,11 @@ Here, the numbers are color coded comparing all the possible cluster groups. The
 - The three most common or prevalent clusters are Clusters 111, 231, and 311.
 	
 	1. Cluster 111: average mortality rate, high diabetes, affluent area, low COVID presence
+		Cecil County, Charles County, Frederick County, Harford County
 	2. Cluster 231: high overall mortality and morbidity prevalence, high poverty/unemployment, low COVID prevalence
+		Caroline County, Dorchester County, Somerset County, Worcester County
 	3. Cluster 311: healthy area, affluent area, low COVID presence
+		Calvert  County, Howard County, Queen Anne's County, Talbot County
 
 - For health, even though there are 12 counties for the middle ranked cluster and 6 for each cluster with the highest and lowest overall mortality rate, there should be a distribution more heavily in the anchor 3 with _less than average_ confirmed cases, _slightly less than average_ deaths, _less than average_ active cases, _slightly less than one standard deviation greater_ incidence rate, and _two standard deviations greater_ case-fatality ratio.
 
