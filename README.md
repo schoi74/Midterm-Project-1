@@ -30,7 +30,7 @@ __Anchor 2__ is a cluster of _one standard deviation greater_ overall mortality 
 
 __Anchor 3__ is a cluster of _one and a half standard deviations less than average_ overall mortality rate, _slightly more than one standard deviation less than average_ diabetes mortalityr rate,  _slightly less than  one standard deviation less than average_ diabetes prevalence rate, and _less than average_ obesity prevalence rate.
 
-In general, the overall health ranking is:
+In general, the overall health ranking is: (by low to high COVID numbers)
 
     1. Anchor 3
     2. Anchor 1
