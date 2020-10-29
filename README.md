@@ -48,7 +48,9 @@ The counties are distributed more heavily in anchor 1 and even spread out betwee
 
 - Anchor 3: 6 counties (Talbot)
 
-![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/health_list_counties.png)
+![alt_text](https://github.com/schoi74/how-counties-are-grouped-based-on-health-socioeconomic-and-COVID-19-metrics/blob/main/counties_health%20clusters.jpg)
+
+This map shows how the counties are clustered (by color).
 
 ### How are counties grouped in Maryland based on different socioeconomic characteristics?
 
@@ -62,7 +64,9 @@ __Anchor 3__ is a cluster with a below average population size, below average in
 
 Below, we can see that Cluster 1 and 3 have a higher concentration of counties in their respective clusters, and Cluster 2 does not feature as many counties. 
 
-![alt_text](https://github.com/schoi74/how-counties-are-grouped-based-on-health-socioeconomic-and-COVID-19-metrics/blob/main/socioeconomic_cluster%20list%20of%20counties.jpg) 
+![alt_text](https://github.com/schoi74/how-counties-are-grouped-based-on-health-socioeconomic-and-COVID-19-metrics/blob/main/counties_socio-demo%20clusters.jpg) 
+
+This map shows how the counties are clustered (by color) for the socioeconomic data.
 
 ### How are counties grouped based on different COVID-19 variables?
 
@@ -92,9 +96,21 @@ The counties are distributed heavily in anchor 1 and evenly distributed in ancho
 
 - Anchor 3: 4 counties (Carroll)
 
-![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/covid_list_counties.png)
+![alt_text](https://github.com/schoi74/how-counties-are-grouped-based-on-health-socioeconomic-and-COVID-19-metrics/blob/main/counties_covid-19%20clusters.jpg)
+
+This map shows the clusters for the COVID-19 data.
 
 ### How are these three different clusters related to each other?
+
+![alt_text](https://github.com/schoi74/how-counties-are-grouped-based-on-health-socioeconomic-and-COVID-19-metrics/blob/main/visualization_clusters.jpg)
+
+This visually represents the clusters for all three data sets. 
+
+The health data is generally split beween an average health cluster, a cluster with higher morbidity/mortality rates, and a cluster with low morbidity/mortality rates. 
+
+The socioceconomic data is clustered as follows: One cluster is affluent, one cluster is lower-income, and one cluster is average for income but has a high population size. 
+
+The COVID-19 data is generally split as having one cluster with a low presence of COVID-19 (healthy), a cluster, with a high COVID-19 presence, and a cluster with low COVID-19 presence but a high case-to-fatality ratio.
 
 ![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/master_cluster.png)
 
