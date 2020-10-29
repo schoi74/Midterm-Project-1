@@ -10,11 +10,13 @@ How are counties in the state of Maryland grouped based on different health and 
 
 ## Data Analysis
 
-We used data from the [Maryland Open Data Portal](https://opendata.maryland.gov/), the Johns Hopkins Center for a Livable Future’s [Maryland Food System Map](https://mdfoodsystemmap.org/), and the Johns Hopkins University’s Center for Systems Science and Engineering (CSSE) [daily reports of COVID-19 data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). For the Maryland Open Data Portal, we used data about [socioeconomic characteristics](https://opendata.maryland.gov/Demographic/Maryland-Counties-Socioeconomic-Characteristics/is7h-kp6x) and [demographics](https://opendata.maryland.gov/Demographic/Choose-Maryland-Compare-Counties-Demographics/pa7d-u6hs) across counties in Maryland. For the Maryland Food System Map, we used 2018 data regarding the [obesity prevalence rate](https://data-clf.hub.arcgis.com/datasets/35ba641edca9421da541242e66ec288e_476), the [diabetes prevalence rate](https://data-clf.hub.arcgis.com/datasets/a1faf09747be4911b20838c639341480_475), the [diabetes mortality rate](https://data-clf.hub.arcgis.com/datasets/dd16ad94a1b344b090868e0181c99674_479), and the [overall mortality rate](https://data-clf.hub.arcgis.com/datasets/75684f521c374e408d2dc082a41cafc0_477).
+We used data from the [Maryland Open Data Portal](https://opendata.maryland.gov/), the Johns Hopkins Center for a Livable Future’s [Maryland Food System Map](https://mdfoodsystemmap.org/), and the Johns Hopkins University’s Center for Systems Science and Engineering (CSSE) [daily reports of COVID-19 data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) as of October  24th, 2020. For the Maryland Open Data Portal, we used data about [socioeconomic characteristics](https://opendata.maryland.gov/Demographic/Maryland-Counties-Socioeconomic-Characteristics/is7h-kp6x) and [demographics](https://opendata.maryland.gov/Demographic/Choose-Maryland-Compare-Counties-Demographics/pa7d-u6hs) across counties in Maryland. For the Maryland Food System Map, we used 2018 data regarding the [obesity prevalence rate](https://data-clf.hub.arcgis.com/datasets/35ba641edca9421da541242e66ec288e_476), the [diabetes prevalence rate](https://data-clf.hub.arcgis.com/datasets/a1faf09747be4911b20838c639341480_475), the [diabetes mortality rate](https://data-clf.hub.arcgis.com/datasets/dd16ad94a1b344b090868e0181c99674_479), and the [overall mortality rate](https://data-clf.hub.arcgis.com/datasets/75684f521c374e408d2dc082a41cafc0_477).
 	
 We first grouped the data into three categories: health data, socioeconomic/demographic data, and COVID-19 data. We then conducted a cluster analysis for each group to see what clusters (by county in MD) existed; that was then used to create one cluster map (color-coded by anchor) per data group. We then looked at correlation rates between all variables across the three data groups. Finally, we looked at which counties were clustered into which anchors and interpreted what that meant for each county across the three data groups. 
 	
 We decided to focus mainly on the percents and rates where possible, as absolute values of numbers are difficult to compare across groups (ex: the effect that a mortality rate of 1000 people affects a county with a total population of 10,000 vs a county with a total population of 100,000 differently). 
+
+It is important to note that the health data are from 2018 and the socioeconomic data are from 2019, but our COVID-19 data are obviously from 2020. Even though the timeline does not add up, we will conduct this analysis thinking about how the COVID-19 data relates to the health and socioeconomic datasets if they were all from the year 2020.
 
 ## Data Answer
 
@@ -140,5 +142,15 @@ Here, the numbers are color coded comparing all the possible cluster groups. The
 	1. Cluster 111: average mortality rate, high diabetes, affluent area, low COVID presence
 	2. Cluster 231: high overall mortality and morbidity prevalence, high poverty/unemployment, low COVID prevalence
 	3. Cluster 311: healthy area, affluent area, low COVID presence
+
+- For health, even though there are 12 counties for the middle ranked cluster and 6 for each cluster with the highest and lowest overall mortality rate, there should be a distribution more heavily in the anchor 3 with _less than average_ confirmed cases, _slightly less than average_ deaths, _less than average_ active cases, _slightly less than one standard deviation greater_ incidence rate, and _two standard deviations greater_ case-fatality ratio.
+
+- Overall, Maryland has done a decent job so far dealing with the coronavirus as only 4 out of the 24 counties have higher than average COVID prevalence and that 16 counties are in the lowest COVID numbered anchor (anchor 1).
+
+- If bigger data sample sizes were available for all these counties with Maryland state, 
 	
-- 
+	we think it would be helpful to even incorporate how these counties are grouped based on other health metrics, such as mortality rates for obesity and 		heart diseases or heart disease mortality rate.
+	
+	we think it would be helpful to even incorporate how these counties are grouped based on other socioeconomic metrics, such as availability to vehicles or 	  accessibility to food or healthcare.
+	
+- If we were to manage the state plans to improve certain parts of the state to improve people's lives, we would either incorporate more variables to further reason why and how the counties are grouped into these clusters or delve more into the causes of overall mortality rate or the confirmed cases of COVID, for example, are higher in some regions or clusters than others and some possible resolutions to alleviate the discrepancy. Moreover, we could even look closer into each county that need improvement in health, socioeconomy, or even COVID-19 to analyze the root causes and resolve.
