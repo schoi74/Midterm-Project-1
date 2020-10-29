@@ -42,7 +42,7 @@ Here, the counties are distributed more heavily in anchor 1 and even spread out 
 
 ### How are counties grouped based on different COVID-19 variables?
 
-![alt_text]()
+![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/covid_cluster.png)
 
 __Anchor 1__ is a cluster of _less than average_ confirmed cases, _less than average_ deaths, _less than average_ active cases, _less than average_ incidence rate, and _less than average_ case-fatality ratio.
 
