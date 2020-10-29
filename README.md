@@ -70,7 +70,7 @@ Here, the counties are distributed heavily in anchor 1 and evenly distributed in
 
 - Anchor 3: 4 counties (Carroll)
 
-![alt_text]()
+![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/covid_list_counties.png)
  
 ## Summary
 
