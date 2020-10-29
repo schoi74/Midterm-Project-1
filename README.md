@@ -60,7 +60,7 @@ In general, the overall COVID-19 ranking is:
 
 Here, we see that the sum of the minimum distance squared is about 34.44. For 24 counties, the average comes out to be about 1.435 units of mininum distance squared per county. This is a stronger correlation than that of the health cluster analysis.
 
-![alt_text]()
+![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/covid_cluster_count.png)
 
 Here, the counties are distributed heavily in anchor 1 and evenly distributed in anchors 2 and 3.
 
