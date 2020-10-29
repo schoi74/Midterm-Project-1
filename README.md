@@ -38,7 +38,7 @@ Here, the counties are distributed more heavily in anchor 1 and even spread out 
 
 - Anchor 3: 6 counties (Talbot)
 
-![alt_text]()
+![alt_text](https://github.com/schoi74/Midterm-Project-1/blob/main/health_list_counties.png)
 
 ### How are counties grouped based on different COVID-19 variables?
 
